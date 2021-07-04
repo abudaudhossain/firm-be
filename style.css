@@ -116,3 +116,13 @@ font-family: 'Montserrat', sans-serif;
 .linkbtn img{
     padding-left: 20px;
 }
+.flixible{
+    display: flex;
+}
+
+.info-text-area{
+    padding: 0 20px;
+}
+.flixible h3{
+ padding-bottom: 10px;
+}

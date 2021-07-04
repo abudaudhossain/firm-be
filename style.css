@@ -1,11 +1,118 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
+body{
+    /* padding: 0 200px; */
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+   font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #24272b;
+    font-family: 'Montserrat', sans-serif; 
+    padding-bottom: 20px;
+}
 
 p{
     font-family: 'Open Sans', sans-serif;
     font-size:14px;
     color: #24272b;
     line-height: 25px;
+}
+.pl{
+    padding-left: 150px;
+}
+.pr{
+    padding-right: 100px;
+}
+.pt{
+    padding-top: 150px;
+}
+.pb{
+    padding-bottom: 100px;
+}
+
+#header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow:hidden;
+    background-image: url(./img/firm2-slider-top-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+nav{
+    width: 90%;
+    margin: 20px auto;
+    position: sticky;
+    display:flex;
+    text-align: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width:120px;
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 5px;
+    padding:5px;
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.active{
+    color: #5FE39C
+}
+.header{
+    display: flex;
+    width: 100%;
+    position:relative;
+}
+.text-area{
+    width:500px;
+}
+.img-area{
+  position: absolute;
+right: 105px;
+top: -70px;
+}
+.img-area img{
+    width:600px;
+    height: 600px;
+    /* position: absolute; */
+    /* top:0; */
+}
+.text-color{
+    color: #5fe39c;
+}
+.linkbtn{
+text-decoration: none;
+background: #c7b9b9;
+padding: 10px 40px;
+border-radius: 50px;
+display: inline-block;
+color: #3b3b39;
+font-weight: 500;
+font-family: 'Montserrat', sans-serif;
+}
+.linkbtn img{
+    padding-left: 20px;
 }

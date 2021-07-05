@@ -4,11 +4,12 @@
     padding: 0;
 }
 body{
-    /* padding: 0 200px; */
+    background: linear-gradient(to bottom, #4dd583,#f3fff9, #ffffff,#fff)
 }
 .main{
     width: 80%;
     margin: 0 auto;
+
 }
 h1{
    font-size: 50px;

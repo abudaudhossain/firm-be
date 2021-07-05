@@ -32,7 +32,7 @@ p{
     padding-right: 100px;
 }
 .pt{
-    padding-top: 150px;
+    padding-top: 120px;
 }
 .pb{
     padding-bottom: 100px;
@@ -112,17 +112,33 @@ display: inline-block;
 color: #3b3b39;
 font-weight: 500;
 font-family: 'Montserrat', sans-serif;
+margin-top: 25px;
 }
 .linkbtn img{
     padding-left: 20px;
 }
 .flixible{
     display: flex;
+    width: 100%;
 }
-
+#info{
+    width: 100%;
+    padding-left: 25px;
+}
 .info-text-area{
-    padding: 0 20px;
+    padding: 0 80px 0 40px;
 }
 .flixible h3{
  padding-bottom: 10px;
+}
+
+.half-width{
+    width:50%;
+}
+.half-width h2{
+    padding-bottom: 20px;
+    padding-right: 100px;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
 }
